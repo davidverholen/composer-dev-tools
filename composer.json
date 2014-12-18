@@ -26,9 +26,11 @@
         }
     },
     "autoload-dev": {
-        "class": "DavidVerholen\\Composer\\DevTools\\Plugin",
         "psr-0": {
             "DavidVerholen\\Test\\Composer\\DevTools": "tests/"
         }
+    },
+    "extra": {
+        "class": "DavidVerholen\\Composer\\DevTools\\Plugin"
     }
 }
