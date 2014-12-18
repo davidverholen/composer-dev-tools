@@ -2,6 +2,7 @@
     "name": "davidverholen/composer-dev-tools",
     "description": "some tools for development with composer",
     "minimum-stability": "stable",
+    "type": "composer-plugin",
     "license": "OSL-3.0",
     "authors": [
         {
