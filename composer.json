@@ -1,0 +1,33 @@
+{
+    "name": "davidverholen/composer-dev-tools",
+    "description": "some tools for development with composer",
+    "minimum-stability": "stable",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "David Verholen",
+            "email": "david@verholen.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer-plugin-api": "*",
+        "davidverholen/git-tools": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "composer/composer": "@alpha",
+        "symfony/filesystem": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "DavidVerholen\\Composer\\DevTools": "src/"
+        }
+    },
+    "autoload-dev": {
+        "class": "DavidVerholen\\Composer\\DevTools\\Plugin",
+        "psr-0": {
+            "DavidVerholen\\Test\\Composer\\DevTools": "tests/"
+        }
+    }
+}
